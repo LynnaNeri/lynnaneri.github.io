@@ -3039,7 +3039,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #1a2338;
 				color: #fff;
 				min-width: 320px;
 			}
@@ -3085,7 +3085,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #39515f;
+						background: #1a2338;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3096,7 +3096,7 @@ input, select, textarea {
 						text-align: center;
 						top: 0;
 						width: 64px;
-						left: 0;
+						right: 0;
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
@@ -3143,11 +3143,11 @@ input, select, textarea {
 
 		/* Image */
 
-			.image.right {
+			.image.left {
 				margin: 0 1.5em 1em 0;
 			}
 
-			.image.left {
+			.image.right {
 				margin: 0 0 1em 1.5em;
 			}
 
@@ -3174,7 +3174,7 @@ input, select, textarea {
 			.features article .image {
 				display: block;
 				margin: 0 0 2.25em 0;
-				padding-left: 0;
+				padding-right: 0;
 				width: 100%;
 			}
 
@@ -3191,7 +3191,7 @@ input, select, textarea {
 				-webkit-transform: translateX(17em);
 				-ms-transform: translateX(17em);
 				transform: translateX(17em);
-				left: 0;
+				right: 0;
 			}
 
 				#header > header {
@@ -3297,7 +3297,7 @@ input, select, textarea {
 					}
 
 						ul.actions li > *.icon:before {
-							margin-right: -2em;
+							margin-left: -2em;
 						}
 
 				ul.actions.small li {
